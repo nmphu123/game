@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400;1,500;1,600&display=swap");
+
+.board {
+  width: 400px;
+  margin: auto;
+}
+
+.info {
+  width: 400px;
+  margin: auto;
+  font-family: "Poppins";
+  font-size: 20px;
+}
+
+.info-item {
+  color: red;
+}
+
+select#search-depth {
+  font-size: 17px;
+}
+
+.move-history {
+  max-height: 100px;
+  overflow-y: scroll;
+}

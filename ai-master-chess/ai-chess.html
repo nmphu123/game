@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="../favicon.png" sizes="16x16" type="image/png" />
+
+    <!-- Vendor CSS -->
+    <link
+      rel="stylesheet"
+      href="./vendor/chessboardjs/css/chessboard-1.0.0.css"
+    />
+
+    <!-- Custom CSS (Main CSS) -->
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div id="board" class="board"></div>
+    <div class="info">
+      <span class="info-item">Search depth:</span>
+      <select id="search-depth">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3" selected>3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <br />
+      <span>
+        <span class="info-item">Positions evaluated:</span>
+        <span id="position-count"></span> </span
+      ><br />
+      <span>
+        <span class="info-item">Time: </span>
+        <span id="time"></span> </span
+      ><br />
+      <span>
+        <span class="info-item">Positions/s:</span>
+        <span id="positions-per-s"></span> </span
+      ><br /><br />
+      <div id="move-history" class="move-history"></div>
+    </div>
+
+    <!-- Vendor JS -->
+    <script src="./vendor/jquery/jquery-3.7.1.min.js"></script>
+    <script src="./vendor/chessboardjs/js/chess.js"></script>
+    <script src="./vendor/chessboardjs/js/chessboard-1.0.0.js"></script>
+
+    <!-- Custom JS (Main JS) -->
+    <script src="./assets/main.js"></script>
+    <script></script>
+  </body>
+</html>
